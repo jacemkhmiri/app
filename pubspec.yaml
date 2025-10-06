@@ -1,0 +1,59 @@
+name: p2p_connect
+description: "Decentralized WhatsApp Clone - Secure P2P Messaging"
+
+publish_to: 'none'
+
+version: 1.0.0+0
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  
+  # Database & Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  
+  # Encryption
+  encrypt: ^5.0.1
+  pointycastle: ^3.7.3
+  
+  # UUID Generation
+  uuid: ^4.2.1
+
+  # WebRTC & Networking
+  flutter_webrtc: ^1.2.0
+  multicast_dns: ^0.3.2
+  connectivity_plus: ^5.0.1
+  http: ^1.1.0
+  json_annotation: ^4.8.1
+  
+  # WebSocket for real-time features
+  web_socket_channel: ^2.4.0
+  
+  # Socket.io for signaling
+  socket_io_client: ^2.0.0
+  
+  # Cryptography for Ed25519
+  cryptography: ^2.0.0
+  
+  # Image handling
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+  
+  # Clean Architecture
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^1.1.3
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
